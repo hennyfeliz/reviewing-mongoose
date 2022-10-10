@@ -16,3 +16,12 @@ simple nodejs crud with non-relational databases, with mongoose
 * db.products.find({name: 'someproductname'}).pretty()
 * db.products.update({name: 'someproductname'},{data to change})
 * db.users.remove({name: 'someproductname'})
+
+## To Run
+
+* node App.js
+* node ./CRUD/create.js
+* node ./CRUD/delete.js
+* node ./CRUD/findOne.js
+* node ./CRUD/update.js
+* node ./CRUD/list.js
