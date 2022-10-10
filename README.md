@@ -6,7 +6,7 @@ simple nodejs crud with non-relational databases, with mongoose
 Schemas are simple, they mark a way to work with mongo data...
 
 User schema:
-  `username: {
+  ```username: {
     type: String,
     unique: true,
     required: true
@@ -16,15 +16,15 @@ User schema:
     type: Date,
     default: new Date()
   },
-  name: String`
+  name: String```
 
 Product schema:
-  `name: String,
+  ```name: String,
   description: String,
   price: {
     type: Number,
     default: 0.00
-  }`
+  }```
 
 ## Mongo terminal commands used
 
